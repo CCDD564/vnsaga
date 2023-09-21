@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  position: fixed;
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  z-index: 20;
+  user-select: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 240px;
+  height: 100%;
+  transition: background-color 0.5s ease;
+  transition: width 0.5s ease;
+}
+.logo:hover {
+  background-color: #49aec0;
+  cursor: pointer;
+}
+.logo-text {
+  color: #000;
+  font-size: 31px;
+  letter-spacing: 9px;
+}
+.menu {
+  display: flex;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 30px;
+}
+li {
+  display: inline;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+}
+ul > li > a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Saira Semi Condensed";
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+  height: 100%;
+  transition: border-bottom 0.5s ease;
+  border-bottom: 1px solid #000;
+}
+ul > li > a:hover {
+  color: #49aec0;
+  border-bottom: 1px solid #fff;
+}
+.email a {
+  color: #777777;
+}
